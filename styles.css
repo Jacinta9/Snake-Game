@@ -1,0 +1,59 @@
+body {
+    text-align: center;
+    background-color: #222;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+canvas {
+    border: 2px solid white;
+    display: block;
+    margin: 20px auto;
+    background-color: black;
+}
+
+.controls {
+    margin: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#playButton { background-color: green; color: white; }
+#pauseButton { background-color: orange; color: white; }
+#stopButton { background-color: red; color: white; }
+
+.direction-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.direction-buttons div {
+    display: flex;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.direction-buttons button {
+    background-color: blue;
+    color: white;
+  }
