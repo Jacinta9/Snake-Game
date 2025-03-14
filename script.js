@@ -13,7 +13,7 @@ let snake = [
 let direction = "RIGHT";
 let food = generateFood();
 let gameInterval;
-let gameSpeed = 100; // Default speed
+let gameSpeed = 200; // Default speed
 
 // Listen for difficulty change
 document.getElementById("difficulty").addEventListener("change", function() {
